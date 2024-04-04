@@ -9,6 +9,7 @@ ieeg_folder = locations.ieeg_folder;
 ieeg_pw_file = locations.ieeg_pw_file;
 ieeg_login = locations.ieeg_login;
 addpath(genpath(scripts_folder))
+addpath(genpath(ieeg_folder))
 
 %% Define annotation file
 annotation_file = [results_folder,'annotations/annotations.csv'];
